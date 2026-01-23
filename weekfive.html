@@ -19,15 +19,35 @@
             margin: 5px;
             cursor: pointer;
         }
+        .Go{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .backnext{
+            margin-top: 5px;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(169, 216, 255);
+            font-size: 15px;
+            font-weight: 600;
+            border: none;
+        }
     </style>
 </head>
 <body>
+    <div class="Go">
+    <div><a href="https://sites.google.com/view/exercise011/home?authuser=4"><button class="backnext">Home</button></a></div>
+    <div><a href="weeksix.html"><button class="backnext">Go Next</button></a></div></div>
+
     <h1>ตัวนับค่าอย่างง่าย</h1>
     <div id="counter">0</div>
 
+    <div class="click">
     <button onclick="decrease()">ลดค่า</button>
-
     <button onclick="increase()">เพิ่มค่า</button>
+    </div>
 
     <script>
         let count = 0;

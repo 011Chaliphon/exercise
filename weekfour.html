@@ -6,11 +6,33 @@
     <title>week4</title>
     <style>
         body {
+            margin: 0;
+            height: 100px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 1000px;
+            align-items: flex-start;
         }
+
+        .Go {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 600;
+            border: none;
+        }
+        
+        .Go a {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
 
         .circle-img {
             width: 250px;
@@ -38,9 +60,14 @@
             border: none;              
             border-radius: 5px;
         }
+
     </style>
 </head>
 <body>
+    <div class="Go">
+    <div><a href="https://sites.google.com/view/exercise011/home?authuser=4"><button>Home</button></a></div>
+    <div><a href="weekfive.html"><button>Go Next</button></a></div></div>
+
     <div class="card">
     <img class="circle-img" src="Image/ali.jpg" alt="">
 
@@ -48,7 +75,7 @@
     <h4>@Chailphon_011</h4>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur quos fugiat nemo laudantium assumenda porro cum reprehenderit harum ab natus recusandae voluptatum vel provident expedita rem impedit, facere a?</p>
 
-    <button>Content</button>
+    <div ><button class="contentt">Content</button></div>
     </div>
 </body>
 </html>
